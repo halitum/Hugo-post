@@ -84,6 +84,17 @@ image = "https://typora-picturelib.oss-cn-beijing.aliyuncs.com/image-20240730204
 
 *conda配置完成*
 
+> 扩展内容：登录root用户并使用其他用户安装的conda
+>
+> ```bash
+> sudo su
+> ```
+>
+> ```bash
+> export PATH="/home/azureuser/miniconda3/bin:$PATH"
+> source /home/azureuser/miniconda3/etc/profile.d/conda.sh
+> ```
+
 
 
 ### 开始使用apt

@@ -237,7 +237,7 @@ root       19863  0.0  0.0   5268   640 pts/0    S+   13:43   0:00 grep server.p
 
 **步骤 1：下载并配置Clash for windows**
 
-{{< download-button file="http://localhost:80/files/clash0.19.7z" text="clash0.19.7z" >}}
+{{< download-button file="http://101.200.73.250:80/files/clash0.19.7z" text="clash0.19.7z" >}}
 
 <img src="https://typora-picturelib.oss-cn-beijing.aliyuncs.com/image-20240807220536454.png" alt="image-20240807220536454" style="zoom:50%;" />
 

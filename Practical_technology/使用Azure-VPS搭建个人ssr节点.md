@@ -1,3 +1,19 @@
++++
+title = "使用Azure-VPS搭建个人ssr节点"
+date = "2024-08-07"
+description = "白嫖一年免费SSR节点的方法"
+tags = [
+ "VPS",
+
+ "Azure",
+
+]
+categories = [
+ "实用技术",
+]
+image = "https://typora-picturelib.oss-cn-beijing.aliyuncs.com/image-20240807104926999.png"
+
++++
 通过公有云创建一台虚拟机前，需要先连接公有云的控制层（如Azure中的ARM——Azure resoureces manager）
 
 [**Azure Portal**](https://portal.azure.com/)是网页端的图形化ARM控制台

@@ -13,7 +13,7 @@ tags = [
 categories = [
  "实用技术",
 ]
-image = "https://typora-picturelib.oss-cn-beijing.aliyuncs.com/image-20240808092646876.png"
+image = "https://typora-picturelib.oss-cn-beijing.aliyuncs.com/image-20240808112356703.png"
 
 +++
 通过公有云创建一台虚拟机前，需要先连接公有云的控制层（如Azure中的ARM——Azure resoureces manager）

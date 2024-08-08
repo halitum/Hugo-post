@@ -1,17 +1,19 @@
 +++
-title = "使用Azure-VPS搭建个人ssr节点"
+title = "使用Azure搭建个人节点"
 date = "2024-08-07"
-description = "白嫖一年免费SSR节点的方法"
+description = ""
 tags = [
  "VPS",
 
  "Azure",
 
+ "网络代理",
+
 ]
 categories = [
  "实用技术",
 ]
-image = "https://typora-picturelib.oss-cn-beijing.aliyuncs.com/image-20240807104926999.png"
+image = "https://typora-picturelib.oss-cn-beijing.aliyuncs.com/image-20240808092646876.png"
 
 +++
 通过公有云创建一台虚拟机前，需要先连接公有云的控制层（如Azure中的ARM——Azure resoureces manager）
@@ -102,9 +104,9 @@ image = "https://typora-picturelib.oss-cn-beijing.aliyuncs.com/image-20240807104
 
 
 
-## 配置ShadowsocksR服务端
+## 配置服务端<方法一>使用ShadowsocksR
 
-[Shadowsocksr服务端一键安装管理脚本](https://github.com/ToyoDAdoubiBackup/shadowsocksr)
+[Shadowsocksr服务端](https://github.com/ToyoDAdoubiBackup/shadowsocksr)\n
 [Shadowsocks客户端](https://shadowsockshelp.github.io/Shadowsocks/download.html)
 
 **配置python环境**
@@ -229,7 +231,29 @@ root       19863  0.0  0.0   5268   640 pts/0    S+   13:43   0:00 grep server.p
 
 ------------------------
 
-*VPS服务端配置完成*
+## 配置服务端<方法二>使用v2ray脚本
+
+使用v2ray自动安装部署脚本（内含广告，赛博洁癖慎用）
+
+```bash
+sudo su
+bash <(curl -s -L https://git.io/v2ray-setup.sh)
+```
+
+命令运行后v2ray自动开始运行，可以：
+
+- `v2ray status` 确认状态
+- `v2ray start` 启动一下
+
+按照下面的例子找一个自己能导入的链接：
+
+- `v2ray link` 生成一个json格式的东东
+- `v2ray qr` 生成 vmess 二维码、链接
+- `v2ray ssqr` 生成 ss 二维码、链接
+
+------------------------------
+
+*服务端配置完成*
 
 
 
@@ -306,4 +330,13 @@ rules:
 
 ------------------------------
 
-*ShadowsocksR客户端配置完成*
+## 配置v2ray客户端
+
+```bash
+v2ray qr
+```
+
+ios使用shaowrocket搜码即享
+
+桌面端参考[V2Ray客户端使用教程 · xyz690/v2ray Wiki (github.com)](https://github.com/xyz690/v2ray/wiki/V2Ray客户端使用教程)
+

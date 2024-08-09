@@ -26,7 +26,7 @@ image = "https://typora-picturelib.oss-cn-beijing.aliyuncs.com/image-20240731122
 
 +++
 
-> BOT联系方式——QQ：2665814614
+> BOT联系方式——QQ：2665814614<br>
 > ![image-20240731122323764](https://typora-picturelib.oss-cn-beijing.aliyuncs.com/image-20240731122323764.png)
 
 > chatBOT用户面板：http://www.naii.asia/

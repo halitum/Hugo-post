@@ -4,7 +4,7 @@ title = "chatBOT项目说明"
 
 date = "2024-05-14"
 
-description = "个人开发的基于大模型的聊天机器人"
+description = "基于大模型的聊天机器人"
 
 tags = [
 

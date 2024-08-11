@@ -21,6 +21,10 @@ image = "https://typora-picturelib.oss-cn-beijing.aliyuncs.com/Datawhale.jpg"
 >
 > **学习内容提要**：通过学习大模型部署、大模型检索增强生成（Retrieval Augmented Generation, RAG）实战、大模型微调实战，掌握大模型应用全栈开发
 
+# IDEA1：跑团伴侣
+
+> *[项目仓库](https://github.com/halitum/trpg-companions)*
+
 ## 项目背景
 
 在跑团的爱好者中，组织和管理游戏经常被视为一项具有挑战性的任务。从创建复杂的故事线和角色，到维护游戏的流程和平衡，主持人和玩家们需要投入大量的时间和精力。当前市场上的跑团辅助工具主要集中在角色建立和规则查询等方面，往往缺乏对游戏叙事和动态互动的有效支持。
@@ -59,3 +63,50 @@ image = "https://typora-picturelib.oss-cn-beijing.aliyuncs.com/Datawhale.jpg"
 
 
 > *[一个前期demo](http://www.hell-0.xyz/p/chatbot项目说明/)*
+
+
+
+# IDEA2：博客阅读助手
+
+> *[项目仓库](https://github.com/halitum/datawhale-tutor-helper)*
+
+2024Datawhale AI夏令营第四期方向2：大模型开发与应用
+
+基于浪潮“源”大模型的AI Datawhale助教笔记阅读小助手
+
+------
+
+## 项目背景
+
+
+
+为了帮助Datawhale的助教们花费更少的时间更好地阅读学习者笔记，我们计划开发这款“DW助教小助手”的应用。该应用将在大语言模型的基础上结合RAG、大语言模型微调等技术实现学习者笔记的量化评分与评语输出。
+
+## 产品功能
+
+
+
+- **博客内容爬取**：解析笔记链接，爬取博客内容
+- **批量文章导入**：可一次输入数个url进行批处理操作
+- **多维度评分**：大模型将输出文章的多维度的具体评分，维度可能包括：内容丰富度、知识深度、内容扩展性、内容准确性
+- **文章评语撰写**：为评分达到“优秀笔记标准”的文章输出评语，说明这篇文章为什么被评选为优秀笔记
+- **整理统计信息**：按评分输出所有笔记的统计信息
+
+## 技术方案
+
+
+
+本项目将在云端部署“源大模型”，以处理所有对大语言模型的请求
+
+**前端**
+
+- **streamlit**
+
+**后端**
+
+- **FastAPI**
+
+**大模型开发**
+
+- [Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat)
+- **大模型微调**：使用往期笔记建立数据集

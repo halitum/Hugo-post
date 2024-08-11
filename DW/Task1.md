@@ -45,22 +45,18 @@ image = "https://typora-picturelib.oss-cn-beijing.aliyuncs.com/Datawhale.jpg"
 
 ## 技术方案
 
-本项目将在云端部署“源大模型”，以处理所有对大语言模型的请求
+**前端**
 
-**前端部署**
+- **QQ端**：使用基于拉格兰框架的海豹核心开发QQ端应用
+- **Web端**
 
-- **QQ端**：使用基于拉格兰框架的海豹核心开发QQ端应用，为QQ用户提供无缝且互动性强的用户体验
-- **Web端**：采用现代Web技术栈构建
+**后端**
 
-**后端架构**
+- **Python FastAPI**
 
-- **API接口**：使用Python FastAPI框架开发RESTful API，处理和响应用户请求
+**RAG**
 
-**数据存储**
-
-- **向量数据库**：存储和管理知识库信息
-
-
+- Langchain-Chatchat
 
 > *[一个前期demo](http://www.hell-0.xyz/p/chatbot项目说明/)*
 

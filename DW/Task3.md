@@ -8,7 +8,7 @@ tags = [
 categories = [
  "DataWhale组队学习",
 ]
-image = ""
+image = "https://typora-picturelib.oss-cn-beijing.aliyuncs.com/1-1-0.png"
 
 +++
 ## # RAG简介

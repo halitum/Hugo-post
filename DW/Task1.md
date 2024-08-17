@@ -4,7 +4,6 @@ date = "2024-08-08"
 description = "做个什么呢"
 tags = [
  "LLM",
- "开发",
 ]
 categories = [
  "DataWhale组队学习",

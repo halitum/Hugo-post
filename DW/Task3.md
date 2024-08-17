@@ -1,4 +1,4 @@
-++++
++++
 title = "[Datawhale AI 夏令营] Task 3 源大模型RAG实战"
 date = "2024-08-17"
 description = ""
@@ -10,7 +10,7 @@ categories = [
 ]
 image = ""
 
-++++
++++
 ## # RAG简介
 
 ### 用途：
